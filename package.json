@@ -1,0 +1,25 @@
+{
+  "name": "Colors",
+  "version": "1.0.0",
+  "description": "RESTful web api that manages the colors of the rainbow",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArcStan3/Colors.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArcStan3/Colors/issues"
+  },
+  "homepage": "https://github.com/ArcStan3/Colors#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "ramda": "^0.23.0"
+  }
+}
