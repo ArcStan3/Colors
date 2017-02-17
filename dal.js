@@ -1,5 +1,5 @@
 const { filter, reject } = require('Ramda')
-const colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
+var colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
 
 function listColors() {
   return colors
@@ -14,7 +14,7 @@ function createColor(color) {
 }
 
 function deleteColor(name) {
-  return reject(x => x === name, colors)
+  return colors = reject(x => x === name, colors)
 }
 
 var dal = {
